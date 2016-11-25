@@ -1,6 +1,6 @@
 {
   "name": "arduino-micro-iphone",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Alternative Arduino micro board that is friendly to the iphone.",
   "author": "Paulo Barcelos <paulo@quirkbot.com>",
   "homepage": "https://github.com/paulobarcelos/ArduinoMicroIPhone",
