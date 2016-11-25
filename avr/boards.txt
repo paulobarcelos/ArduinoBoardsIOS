@@ -1,0 +1,57 @@
+micro_ios.name=Arduino/Genuino Micro (iOS Friendly)
+
+micro_ios.vid.0=0x2341
+micro_ios.pid.0=0x0037
+micro_ios.vid.1=0x2341
+micro_ios.pid.1=0x8037
+micro_ios.vid.2=0x2A03
+micro_ios.pid.2=0x0037
+micro_ios.vid.3=0x2A03
+micro_ios.pid.3=0x8037
+
+micro_ios.vid.4=0x2341
+micro_ios.pid.4=0x0237
+# If the board is a 2341:0237 use 2341:8237 for build and set
+# other parameters as well
+micro_ios.vid.4.build.vid=0x2341
+micro_ios.vid.4.build.pid=0x8237
+micro_ios.vid.4.build.usb_product="Genuino Micro"
+micro_ios.vid.4.bootloader.file=caterina/Caterina-Genuino-Micro.hex
+
+micro_ios.vid.5=0x2341
+micro_ios.pid.5=0x8237
+# If the board is a 2341:8237 use 2341:8237 for build and set
+# other paramters as well
+micro_ios.vid.5.build.vid=0x2341
+micro_ios.vid.5.build.pid=0x8237
+micro_ios.vid.5.build.usb_product="Genuino Micro (iOS Friendly)"
+micro_ios.vid.5.bootloader.file=caterina/Caterina-Genuino-Micro.hex
+
+micro_ios.upload.tool=avrdude
+micro_ios.upload.protocol=avr109
+micro_ios.upload.maximum_size=28672
+micro_ios.upload.maximum_data_size=2560
+micro_ios.upload.speed=57600
+micro_ios.upload.disable_flushing=true
+micro_ios.upload.use_1200bps_touch=true
+micro_ios.upload.wait_for_upload_port=true
+
+micro_ios.bootloader.tool=avrdude
+micro_ios.bootloader.low_fuses=0xff
+micro_ios.bootloader.high_fuses=0xd8
+micro_ios.bootloader.extended_fuses=0xcb
+micro_ios.bootloader.file=caterina/Caterina-Micro.hex
+micro_ios.bootloader.unlock_bits=0x3F
+micro_ios.bootloader.lock_bits=0x2F
+
+micro_ios.build.mcu=atmega32u4
+micro_ios.build.f_cpu=16000000L
+micro_ios.build.vid=0x2341
+micro_ios.build.pid=0x8037
+micro_ios.build.usb_product="Arduino Micro (iOS Friendly)"
+micro_ios.build.board=AVR_MICRO
+micro_ios.build.core=arduino
+micro_ios.build.variant=micro
+micro_ios.build.extra_flags={build.usb_flags}
+
+

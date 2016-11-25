@@ -1,0 +1,15 @@
+{
+	"packages": [
+		{
+			"name": "arduino-boards-ios",
+			"maintainer": "Paulo Barcelos",
+			"websiteURL": "https://github.com/paulobarcelos/ArduinoBoardsIOS",
+			"email": "paulo@quirkbot.com",
+			"help": {
+				"online": "https://github.com/paulobarcelos/ArduinoBoardsIOS/issues"
+			},
+			"platforms": {{PLATFORMS}},
+			"tools": []
+		}
+	]
+}

@@ -1,0 +1,11 @@
+.DS_Store
+node_modules
+npm-debug.log
+QuirkbotArduinoHardware
+QuirkbotArduinoHardware.zip
+quirkbot-arduino-hardware
+quirkbot-arduino-hardware.zip
+quirkbot-arduino-hardware-*
+quirkbot-avr.tar.bz2
+s3_publish
+aws-config
