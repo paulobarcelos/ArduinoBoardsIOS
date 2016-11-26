@@ -12,6 +12,36 @@
 				{
 					"name": "Arduino/Genuino (iOS friendly)",
 					"architecture": "avr",
+					"version": "0.0.2",
+					"category": "Contributed",
+					"url": "http://github.com/paulobarcelos/ArduinoBoardsIOS/releases/download/0.0.2/arduino-boards-ios-0.0.2.zip",
+					"archiveFileName": "arduino-boards-ios-0.0.2.zip",
+					"checksum": "SHA-256:fdae2b4fd7d4dc7a506136d72e39d4195a50313315470f633864b9908b5ba893",
+					"size": "98495",
+					"help": {
+						"online": "https://github.com/paulobarcelos/ArduinoBoardsIOS/issues"
+					},
+					"boards": [
+						{
+							"name": "Arduino/Genuino Micro (iOS friendly)"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "arduino",
+							"name": "avr-gcc",
+							"version": "4.9.2-atmel3.5.3-arduino2"
+						},
+						{
+							"packager": "arduino",
+							"name": "avrdude",
+							"version": "6.3.0-arduino6"
+						}
+					]
+				},
+				{
+					"name": "Arduino/Genuino (iOS friendly)",
+					"architecture": "avr",
 					"version": "0.0.1",
 					"category": "Contributed",
 					"url": "http://github.com/paulobarcelos/ArduinoBoardsIOS/releases/download/0.0.1/arduino-boards-ios-0.0.1.zip",
